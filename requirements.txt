@@ -1,7 +1,7 @@
 fastapi
-uvicorn[standard]
-SQLAlchemy>=2.0
-pydantic>=2
+uvicorn
+sqlalchemy
+pydantic[email]
 passlib[bcrypt]
-python-jose[cryptography]
-python-multipart
+python-jose
+requests
